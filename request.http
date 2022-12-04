@@ -1,0 +1,10 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Iphone 13",
+    "price": 1100
+}
+
+###
+GET http://localhost:4002/products
